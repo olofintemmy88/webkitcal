@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Calculator</title>
+<link href="Calculator.css" rel="stylesheet" type="text/css" />
+</head>
+<script href="Webcalculator.js" type="text/javascript">
+	function ac(){
+	calculator.result.value="0";}
+	function backspace(){
+		var prevalue=calculator.result.value;
+		calculator.result.value=prevalue.substr(0,prevalue.length-1);}
+	function fnsin(){
+		calculator.result.value=Math.sin(calculator.result.value*Math.PI/180);
+	}
+	function fnCos(){
+		calculator.result.value=Math.cos(calculator.result.value*Math.PI/180);
+	}
+	function fnTan(){
+		calculator.result.value=Math.tan(calculator.result.value*Math.PI/180);
+	}
+	function fnlog(){
+		calculator.result.value=Math.log10(calculator.result.value);
+	}
+	function fnExp(){
+		calculator.result.value=Math.exp(calculator.result.value);
+	}
+	function fnpow(){
+		calculator.result.value=Math.pow(calculator.result.value,3);
+	}
+	
+	function square(){
+		calculator.result.value=Math.pow(calculator.result.value,2);
+		}
+	function squareroot(){
+		calculator.result.value=Math.sqrt(calculator.result.value);
+		}
+	function percentage(){
+		calculator.result.value=calculator.result.value/100;
+	}
+	//function fnfact(){
+		//var calculator.result.value=[];
+		//if (calculator.result.value == 0 || calculator.result.value == 1)
+			//return 1;
+		//if (f[calculator.result.value] > 0)
+			//return f[calculator.result.value];
+		//return f[calculator.result.value] = fnfact(calculator.result.value-1)*calculator.result.value;}
+	
+	//**function SQR(x){
+		//if (x =='r'){
+			//**var exp = calculator.result.value;
+			//**exp = math.sqrt(exp);
+			//**calculator.result.value= exp;
+			
+		//**}
+		//**else if (x =='s'){
+		//**	exp = exp * exp;
+		//**	calculator.result.value= exp;
+		//**}
+		//**else if (x == 'a'&& allowSR)
+			
+			//**{
+			//**document.getElementbyId('r').disabled.=.false;
+			//**document.getElementbyId('s').disabled.=.false;
+			//**}
+		//**else if (!allowSR){
+			//**document.getElementbyId('r').disabled.=.true;
+			//**document.getElementbyId('s').disabled.=.true;}
+		//**
+</script>
+<body>
+<div id="divwrapper">
+  <div id="divheader"> <img src="Admin.jpg" width="405" height="68" /></div>
+    <div id="divline"></div>
+  <div id="divlinks">
+    	<div id="divnav">
+        	<ul>
+            	<li><a href="About.html">About</a></li>
+                <li><a href="JETTeam.html">JETTeam</a></li>
+ <li><a href="Webcalculator.html" class="current">Calculator</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="divline"></div>
+  <div id="divPortfolio">	
+  <header>Web Calculator:</header>
+         <center>
+         	<div id="calcul" />
+         <form name="calculator" >
+         <input type="text" name="result"/>
+		  <br>
+		 <input type="button" name="btndel" Value="DEL" onclick="backspace()"/>
+		 <input type="button" name="btnac" Value="AC" onclick="ac()"/>
+		 <input type="button" value="." onclick="calculator.result.value +='.'" />
+		 <input type="button" value="sin" onclick="fnsin()" />
+		 <br>
+		 <input type="button" value="Tan" onclick="fnTan()" />
+		 <input type="button" value="Cos" onclick="fnCos()" />
+		 <input type="button" value="^2" onclick="square()" />
+		 <input type="button" value="√" onclick="squareroot()" />
+		 <br>
+		 <input type="button" value="%" onclick="percentage()"/>
+		 <input type="button" value="cube" onclick="fnpow()"/>
+		 <input type="button" value="log" onclick="fnlog()" />
+		 <input type="button" value="Exp" onclick="fnExp()" />
+		 <br>
+         <input type="button" value="1" onclick="calculator.result.value +='1'" />
+         <input type="button" value="2" onclick="calculator.result.value +='2'" />
+         <input type="button" value="3" onclick="calculator.result.value +='3'" />
+         <input type="button" value="+" onclick="calculator.result.value +='+'" />
+          <br>
+         <input type="button" value="4" onclick="calculator.result.value +='4'" />
+         <input type="button" value="5" onclick="calculator.result.value +='5'" />
+         <input type="button" value="6" onclick="calculator.result.value +='6'" />
+         <input type="button" value="-" onclick="calculator.result.value +='-'" />
+         <br>
+         <input type="button" value="7" onclick="calculator.result.value +='7'" />
+         <input type="button" value="8" onclick="calculator.result.value +='8'" />
+         <input type="button" value="9" onclick="calculator.result.value +='9'" />
+         <input type="button" value="X" onclick="calculator.result.value +='*'" />
+         <br>
+         <input type="button" value="C" onclick="calculator.result.value =''" />
+         <input type="button" value="0" onclick="calculator.result.value +='0'" />
+         <input type="button" value="=" onclick="calculator.result.value =eval(calculator.result.value)"/>
+         <input type="button" value="/" onclick="calculator.result.value +='/'" />
+		</form>
+      </div>
+</div>    
+<div id="divfooter"> <marquee>Project Supervised by: &copy; Mr. Olofinmoye T.O </marquee></div>
+</center>
+</body>
+</html>
