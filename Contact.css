@@ -4,12 +4,11 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li {
 	padding:0;
 }
 
-@media screen and (min-width:480px){
-	body {
+body {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	background:url(monkey.jpeg);
+	background-color: #000;
 }
-	
+
 #divwrapper{
 	width:700px;
 	margin:20px auto;
@@ -114,7 +113,7 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li {
 #divContent img{
 	float:left;
 	border: 1px solid #000;
-	background:#333;
+	backgrond:#333;
 	padding: 16px;
 	margin:0.7am;
 	
@@ -141,11 +140,11 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li {
 }
 
 #divContent p{
-	font-size: 0.7am;
-	text-align: justify;
-	color: #CCC;
-	padding: 0.7am;
-	line-height: 2.4am;
+	font-size:0.7am;
+	text-align:justify;
+	color:#999;
+	padding:0.7am;
+	line-height:2.4am;
 }
 #divfooter{
 	background:#222;
@@ -153,7 +152,7 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li {
 	font-size: x-medium;
     font-style: italic;
     background: linear-gradient(#051118, #5C373C);
-    color: #CAA893;
+    color: White;
     border: thin #CAA893 inset;
 	padding:0;
 	margin:0;
@@ -164,13 +163,13 @@ header {
                 font-weight: bold;
                 text-align: center;
                 background: linear-gradient(#051118, #5C373C);
-                color: #FFFFFF;
-                border: thin #0099FF inset;
+                color: White;
+                border: thin #CAA893 inset;
                 margin: 20px 30px;
                 padding: 10px 20px;
             }
 p{
-	font-size:24px;
+	font-size:32px;
 	text-align:Justify;
 	color:white;
 	padding:0.7am;
@@ -178,9 +177,9 @@ p{
 	margin:5px;
 }
 
-ol{ font-size:x-medium;
+ol{ font-size:23px;
 	text-align:Justify;
-	color: #FF9;
+	color: gold;
 }
 summary{
 	font-size:x-high;

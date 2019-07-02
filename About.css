@@ -7,10 +7,10 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li,ol {
 	  
 
 
-@media screen and (min-width:480px){
-	body {
+body {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	background:url(Admin.jpg);
+	background-image: url (Admin.jpg);
+	background-repeat:no-repeat;
 }
 
 #divwrapper{
@@ -56,7 +56,7 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li,ol {
 	line-height:20px;
 	background:#000;
 	width:80px;
-	font-size:0.8am;
+	font-size:18px;
 	font-weight:bold;
 	color:#fff;
 	text-align:center;
@@ -110,9 +110,9 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li,ol {
 	-webkit-border-radius:15px;
 	
 	/*Shadows*/
-	box-shadow: 1px 1px 4px  #003366;
-	-moz-box-shadow:1px 1px 4px #003366;
-	-webkit-box-shadow:1px 1px 4px #003366;
+	box-shadow: 1px 1px 4px  #FFCCCC;
+	-moz-box-shadow:1px 1px 4px #FFCCCC;
+	-webkit-box-shadow:1px 1px 4px #FFCCCC;
 	}
 #divContent img{
 	float:left;
@@ -134,51 +134,74 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li,ol {
 	
 }
  p{
-	font-size: x-medium;
-	text-align: justify;
-	color: #FFFFFF;
-	padding: 0.7am;
-	line-height: 2.4am;
-	margin: 5px;
+	font-size:23px;
+	text-align:justify;
+	color:white;
+	padding:0.7am;
+	line-height:2.4am;
+	margin:5px;
 }
 #divfooter{
-	background: #222;
-	height: 20px;
+	background:#222;
+	height:20px;
 	font-size: x-medium;
-	font-style: italic;
-	background: linear-gradient(#051118, #5C373C);
-	color: #FFFFFF;
-	border: thin #CAA893 inset;
-	padding: 0;
-	margin: 0;
+    font-style: italic;
+    background: linear-gradient(#051118, #5C373C);
+    color: White;
+    border: thin #CAA893 inset;
+	padding:0;
+	margin:0;
 	border-bottom: 1px solid #333;
 }
  article {
-	color: #600;
-	margin: 5px;
-	font-weight: bold;
-	text-align: justify;
-	background: linear-gradient(#051118, #5C373C);
-	color: #FFFFFF;
-	border: thin #CAA893 inset;
-	margin: 20px 30px;
-	padding: 10px 20px;
+        color:#600;
+        margin: 5px;
+		font-weight: bold;
+		text-align: justify;
+		background: linear-gradient( skyblue, gray);
+        color: black;
+        border: thin #CAA893 inset;
+        margin: 20px 30px;
+        padding: 10px 20px;
+		font-size:18px;
         }
 	
 header {
-	font-size: x-large;
-	font-weight: bold;
-	text-align: center;
-	background: linear-gradient(#051118, #5C373C);
-	color: #FFFFFF;
-	border: thin #0099FF inset;
-	margin: 20px 30px;
-	padding: 10px 20px;
+                font-size: x-large;
+                font-weight: bold;
+                text-align: center;
+                background: linear-gradient(#051118, #5C373C);
+                color: White;
+                border: thin #CAA893 inset;
+                margin: 20px 30px;
+                padding: 10px 20px;
             }
 #divContent p{
-	font-size: 0.7am;
-	text-align: justify;
-	color: #06F;
-	padding: 0.7am;
-	line-height: 2.4am;
+	font-size:0.7am;
+	text-align:justify;
+	color:#999;
+	padding:0.7am;
+	line-height:2.4am;
+li {
+	font-size:23px;
+	text-align:justify;
+	color:white;
 }
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

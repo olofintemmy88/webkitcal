@@ -4,10 +4,9 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li {
 	padding:0;
 }
 
-@media screen and (min-width:480px){
-	body {
+body {
 	font-family: Tahoma, Geneva, sans-serif;
-	background:url(Owl.jpeg);
+	background-color: #000;
 }
 #divwrapper{
 	width:700px;
@@ -52,7 +51,7 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li {
 	line-height:20px;
 	background:#000;
 	width:80px;
-	font-size:0.8am;
+	font-size:0.5am;
 	font-weight:bold;
 	color:#fff;
 	text-align:center;
@@ -131,29 +130,29 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li {
 }
 
 #divfooter{
-	background: #222;
-	height: 20px;
+	background:#222;
+	height:20px;
 	font-size: x-medium;
-	font-style: italic;
-	background: linear-gradient(#051118, #5C373C);
-	color: #FFFFFF;
-	border: thin #CAA893 inset;
-	padding: 0;
-	margin: 0;
+    font-style: italic;
+    background: linear-gradient(#051118, #5C373C);
+    color: White;
+    border: thin #CAA893 inset;
+	padding:0;
+	margin:0;
 	border-bottom: 1px solid #333;
 }
 
 #calcul{
 
-             background:linear-gradient(#051118, #5C373C);
+             background:linear-gradient(skyblue, gray);
              position: relative;
              width: 400PX;
-             border: thin #CAA893 inset;
+             border: thin white inset;
 			 color:#CAA893;
              border-radius: 5px;
          }
 input[type=button]{
-             background:#959090 ;   
+             background:skyblue;   
              width: 20%;
              font-size: 20px ;
              font-weight: 500 ;
@@ -168,12 +167,12 @@ input[type=text]{
              font-size: 20px;  
          }
 header {
-	font-size: x-large;
-	font-weight: bold;
-	text-align: center;
-	background: linear-gradient(#051118, #5C373C);
-	color: #FFFFFF;
-	border: thin #0099FF inset;
-	margin: 20px 30px;
-	padding: 10px 20px;
+                font-size: x-large;
+                font-weight: bold;
+                text-align: center;
+                background: linear-gradient(#051118, #5C373C);
+                color: White;
+                border: thin #CAA893 inset;
+                margin: 20px 30px;
+                padding: 10px 20px;
             }

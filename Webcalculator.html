@@ -1,11 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-sacle=1.0">
 <title>Calculator</title>
 <link href="Calculator.css" rel="stylesheet" type="text/css" />
 </head>
 <script href="Webcalculator.js" type="text/javascript">
+
 	function ac(){
 	calculator.result.value="0";}
 	function backspace(){
@@ -26,7 +27,7 @@
 	function fnExp(){
 		calculator.result.value=Math.exp(calculator.result.value);
 	}
-	function fnpow(){
+	function fncube(){
 		calculator.result.value=Math.pow(calculator.result.value,3);
 	}
 	
@@ -34,7 +35,7 @@
 		calculator.result.value=Math.pow(calculator.result.value,2);
 		}
 	function squareroot(){
-		calculator.result.value=Math.sqrt(calculator.result.value);
+		calculator.result.value=Math.pow(calculator.result.value,1/2);
 		}
 	function percentage(){
 		calculator.result.value=calculator.result.value/100;
@@ -69,7 +70,7 @@
 			//**document.getElementbyId('s').disabled.=.true;}
 		//**
 </script>
-<body>
+<body background="Owl.jpeg" width="900" height="480">
 <div id="divwrapper">
   <div id="divheader"> <img src="Admin.jpg" width="405" height="68" /></div>
     <div id="divline"></div>
@@ -78,7 +79,7 @@
         	<ul>
             	<li><a href="index.html">About</a></li>
                 <li><a href="JETTeam.html">JETTeam</a></li>
- <li><a href="Webcalculator.html" class="current">Calculator</a></li>
+ 				<li><a href="Webcalculator.html" class="current">Calculator</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -102,7 +103,7 @@
 		 <input type="button" value="√" onclick="squareroot()" />
 		 <br>
 		 <input type="button" value="%" onclick="percentage()"/>
-		 <input type="button" value="cube" onclick="fnpow()"/>
+		 <input type="button" value="cube" onclick="fncube()"/>
 		 <input type="button" value="log" onclick="fnlog()" />
 		 <input type="button" value="Exp" onclick="fnExp()" />
 		 <br>
@@ -128,7 +129,7 @@
 		</form>
       </div>
 </div>    
-<div id="divfooter"> <marquee>Project Supervised by: &copy; Mr. Olofinmoye T.O </marquee></div>
+<div id="divfooter"> <marquee><em>Project Supervised by: &copy; Mr. Olofinmoye T.O</em> </marquee></div>
 </center>
 </body>
 </html>
