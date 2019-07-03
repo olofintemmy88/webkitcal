@@ -4,13 +4,13 @@
 		padding:0;
 	}
 	
-
+	@media screen and (min-width:480px){
 body {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	background-image: url (Admin.jpg);
 	background-repeat:no-repeat;
 }
-	
+	}	
 #divwrapper{
 	width:700px;
 	margin:20px auto;
@@ -179,7 +179,7 @@ header {
 	text-align:justify;
 	color:#999;
 	padding:0.7am;
-	line-height:2.4am;
+	line-height:2.4am;}
 li {
 	font-size:23px;
 	text-align:justify;
