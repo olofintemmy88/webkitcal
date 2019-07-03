@@ -3,12 +3,12 @@
 		margin:0;
 		padding:0;
 	}
-	@media (min-width:481px) and (max-width:767px){
+	
 body {
 	font-family: Tahoma, Geneva, sans-serif;
 	background-color: #000;
 }
-	}
+	
 #divwrapper{
 	width:700px;
 	margin:20px auto;
